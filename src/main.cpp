@@ -18,7 +18,7 @@ int main() {
     udp.open( &eth);
 
     /* Listen for UDP on port 65000 */
-    udp.bind(65000);
+    udp.bind(80);
 
     printf("listening on 65000\n");
 
